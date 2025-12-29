@@ -1,0 +1,48 @@
+.favorites-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem 4rem;
+}
+
+.favorites-header {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.favorites-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.favorites-count {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+}
+
+.empty-favorites {
+    text-align: center;
+    padding: 5rem 2rem;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    items-align: center;
+    justify-content: center;
+}
+
+.empty-icon {
+    font-size: 4rem;
+    color: var(--text-secondary);
+    margin: 0 auto 1.5rem;
+    opacity: 0.5;
+}
+
+.empty-favorites h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.empty-favorites p {
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+}
